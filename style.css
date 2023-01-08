@@ -41,6 +41,42 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 130px;
+   
+}
+
+.first-h3, .first-h1{
+    margin: 10px;
+    padding: 5px;
+    line-height: 40px;
+}
+
+.first-h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    color: beige;
+    margin-bottom: 0px;
+}
+
+.first-h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+}
+
+.first-span{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    color: red;
+    position: absolute;
+    bottom: 65px;
 }
 
 .socials{
