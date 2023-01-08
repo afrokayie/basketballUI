@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* 
+main{
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.first-container{
+    background-image: url(./img/basketv.jpg);
+    background-size: cover;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 35rem;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    
+    
+    
+}
+
+.first-container .first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.second{
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    /* flex-direction: row; */
+    /* align-items: flex-end; */
+    justify-content: flex-end; 
+    
+    background-image: url(./img/basketvi.jpg);
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+    
+   
+}
+
+/* .second-img{
+    position: absolute;
+    left: 5px;
+    top:15px;
+    margin: auto;
+
+} */
+
+/* .img-two{
+     max-width: 100%;
+    block-size: auto;
+    object-fit: contain;
+} */
+    
+
+.second-text{
+    position: absolute;
+    left: 700px;
+    top: 120px;
+   float: right;
+    width: 500px;
+}
+
+.third{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center; 
+    margin-bottom: 50px;
+    /* margin-right: 40px; */
+    background-image: url(./img/basketiv.jpg);
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    height: 35rem; 
+    color: #fff;
+   
+}
+/* 
+.container{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /* position: absolute; */
+    padding: 20px;
+    margin: 15px;
+    
+
+}
+
+.container div{
+    text-align: center;
+}
+
+ .fifth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    
+}
+
+.fifth div img{
+    width: 500px;
+    height: 400px;
+    object-fit: contain;
+} 
