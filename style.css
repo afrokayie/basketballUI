@@ -69,6 +69,10 @@ ul {
     font-size: 80px;
 }
 
+.first-p{
+    line-height: 1.5;
+}
+
 .first-span{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -100,7 +104,7 @@ ul {
     object-fit: contain;
     background-repeat: no-repeat;
     width: 600px;
-    height: 600px;
+    height: 500px;
     
    
 }
@@ -122,10 +126,23 @@ ul {
 
 .second-text{
     position: absolute;
-    left: 700px;
+    left: 650px;
     top: 120px;
-   float: right;
+   /* float: right; */
     width: 500px;
+}
+
+.second-h2{
+    margin-bottom: 20px;
+}
+
+.second-h4{
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.second-p{
+    line-height: 1.5;
 }
 
 .third{
