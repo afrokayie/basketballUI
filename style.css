@@ -86,8 +86,12 @@ ul {
 .socials{
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
 }
 
+.socials i{
+    color: #fff;
+}
 
 
 
@@ -160,6 +164,56 @@ ul {
     color: #fff;
    
 }
+
+
+.third-hero{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.season-span{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    color: beige;
+    position: relative;
+    bottom: 20px;
+}
+
+.span-tt{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+}
+
+.stars{
+    position: relative;
+    bottom: 20px;
+}
+
+.stars-h{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 65px;
+    color: red;
+    
+}
+
+
+
+.we-create{
+    position: relative;
+    top: 40px;
+}
+
+.we-create h4{
+    font-size: 20px;
+}
+
 /* 
 .container{
     display: flex;
@@ -173,21 +227,33 @@ ul {
 .container{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     /* position: absolute; */
     padding: 20px;
     margin: 15px;
-    
-
 }
 
 .container div{
+    text-align: center;
+    width: 150px;
+}
+
+.container div i{
+    margin-bottom: 20px;
+} 
+
+.container div h4{
+    margin-bottom: 20px;
+}
+
+.container div p{
     text-align: center;
 }
 
  .fifth{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 15px;
     
 }
