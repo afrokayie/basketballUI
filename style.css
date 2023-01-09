@@ -13,12 +13,12 @@ ul {
     align-items: center;
 } */
 
-.container{
+/* .container{
     display: flex;
     flex-direction: column;
     
 
-}
+} */
 
 .first-container{
     background-image: url(./img/basketv.jpg);
@@ -27,14 +27,13 @@ ul {
     background-repeat: no-repeat;
     height: 35rem;
     color: #fff;
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     margin-bottom: 50px;
-    
-    
-    
+        
 }
 
 .first-container .first {
@@ -83,14 +82,17 @@ ul {
     bottom: 65px;
 }
 
-.socials{
+ .socials{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-}
+    position: absolute;
+    right: 10px;
+} 
 
 .socials i{
+    padding: 10px;
     color: #fff;
+    font-size: small;
 }
 
 
