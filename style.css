@@ -3,22 +3,29 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* 
-main{
+
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px 10px;
 }
 
-ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
+li{
+    text-decoration: none;
+    list-style: none;
+}
 
-/* .container{
-    display: flex;
-    flex-direction: column;
-    
+li a {
+    text-decoration: none;
+    color: #fff;
+}
 
-} */
+li a:hover{
+    color: aqua;
+}
+
 
 .first-container{
     background-image: url(./img/basketv.jpg);
@@ -95,46 +102,23 @@ ul {
     font-size: small;
 }
 
-
-
 .second{
     display: flex;
     position: relative;
-    /* left: 50px; */
-    /* flex-direction: row; */
-    /* align-items: flex-end; */
     justify-content: flex-end; 
-    
     background-image: url(./img/basketvi.jpg);
     background-size: cover;
     object-fit: contain;
     background-repeat: no-repeat;
     width: 600px;
     height: 500px;
-    
-   
 }
 
-/* .second-img{
-    position: absolute;
-    left: 5px;
-    top:15px;
-    margin: auto;
-
-} */
-
-/* .img-two{
-     max-width: 100%;
-    block-size: auto;
-    object-fit: contain;
-} */
-    
 
 .second-text{
     position: absolute;
     left: 650px;
     top: 120px;
-   /* float: right; */
     width: 500px;
 }
 
@@ -157,14 +141,12 @@ ul {
     align-items: center;
     justify-content:center; 
     margin-bottom: 50px;
-    /* margin-right: 40px; */
     background-image: url(./img/basketiv.jpg);
     background-size: cover;
     object-fit: contain;
     background-repeat: no-repeat;
     height: 35rem; 
-    color: #fff;
-   
+    color: #fff;   
 }
 
 
@@ -201,11 +183,8 @@ ul {
     font-style: normal;
     font-weight: 900;
     font-size: 65px;
-    color: red;
-    
+    color: red;  
 }
-
-
 
 .we-create{
     position: relative;
@@ -216,21 +195,10 @@ ul {
     font-size: 20px;
 }
 
-/* 
-.container{
-    display: flex;
-    position: absolute;
-    top: 30px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-} */
-
 .container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* position: absolute; */
     padding: 20px;
     margin: 15px;
 }
