@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.nav-ul{
+.nav-ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -12,7 +12,7 @@
     padding: 10px 10px;
 }
 
-li{
+li {
     text-decoration: none;
     list-style: none;
 }
@@ -22,12 +22,12 @@ li a {
     color: #fff;
 }
 
-li a:hover{
+li a:hover {
     color: aqua;
 }
 
 
-.first-container{
+.first-container {
     background-image: url(./img/basketv.jpg);
     background-size: cover;
     max-width: 100%;
@@ -38,9 +38,9 @@ li a:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     margin-bottom: 50px;
-        
+
 }
 
 .first-container .first {
@@ -50,16 +50,17 @@ li a:hover{
     text-align: center;
     position: absolute;
     left: 130px;
-   
+
 }
 
-.first-h3, .first-h1{
+.first-h3,
+.first-h1 {
     margin: 10px;
     padding: 5px;
     line-height: 40px;
 }
 
-.first-h3{
+.first-h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 100;
@@ -68,18 +69,18 @@ li a:hover{
     margin-bottom: 0px;
 }
 
-.first-h1{
+.first-h1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 80px;
 }
 
-.first-p{
+.first-p {
     line-height: 1.5;
 }
 
-.first-span{
+.first-span {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 100;
@@ -89,23 +90,23 @@ li a:hover{
     bottom: 65px;
 }
 
- .socials{
+.socials {
     display: flex;
     flex-direction: column;
     position: absolute;
     right: 10px;
-} 
+}
 
-.socials i{
+.socials i {
     padding: 10px;
     color: #fff;
     font-size: small;
 }
 
-.second{
+.second {
     display: flex;
     position: relative;
-    justify-content: flex-end; 
+    justify-content: flex-end;
     background-image: url(./img/basketvi.jpg);
     background-size: cover;
     object-fit: contain;
@@ -115,48 +116,48 @@ li a:hover{
 }
 
 
-.second-text{
+.second-text {
     position: absolute;
     left: 650px;
     top: 120px;
     width: 500px;
 }
 
-.second-h2{
+.second-h2 {
     margin-bottom: 20px;
 }
 
-.second-h4{
+.second-h4 {
     margin-bottom: 10px;
     line-height: 1.5;
 }
 
-.second-p{
+.second-p {
     line-height: 1.5;
 }
 
-.third{
+.third {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:center; 
+    justify-content: center;
     margin-bottom: 50px;
     background-image: url(./img/basketiv.jpg);
     background-size: cover;
     object-fit: contain;
     background-repeat: no-repeat;
-    height: 35rem; 
-    color: #fff;   
+    height: 35rem;
+    color: #fff;
 }
 
 
-.third-hero{
+.third-hero {
     display: flex;
     flex-direction: row;
     padding: 0px;
 }
 
-.season-span{
+.season-span {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 100;
@@ -166,36 +167,36 @@ li a:hover{
     bottom: 20px;
 }
 
-.span-tt{
+.span-tt {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 80px;
 }
 
-.stars{
+.stars {
     position: relative;
     bottom: 20px;
 }
 
-.stars-h{
+.stars-h {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 65px;
-    color: red;  
+    color: red;
 }
 
-.we-create{
+.we-create {
     position: relative;
     top: 40px;
 }
 
-.we-create h4{
+.we-create h4 {
     font-size: 20px;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -203,33 +204,70 @@ li a:hover{
     margin: 15px;
 }
 
-.container div{
+.container div {
     text-align: center;
     width: 150px;
 }
 
-.container div i{
-    margin-bottom: 20px;
-} 
-
-.container div h4{
+.container div i {
     margin-bottom: 20px;
 }
 
-.container div p{
+.container div h4 {
+    margin-bottom: 20px;
+}
+
+.container div p {
     text-align: center;
 }
 
- .fifth{
+.fifth {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 15px;
-    
+
 }
 
-.fifth div img{
+.fifth div img {
     width: 500px;
     height: 400px;
     object-fit: contain;
-} 
+}
+
+@media screen and (max-width: 900px) {
+    /* main {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+
+    } */
+    /* .third h5, h4{
+        font-size: 2em; 
+    } */
+
+    .second-text{
+        text-align: center; 
+        position: absolute;
+        /* left: 10%; */
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .container div{
+        margin-top: 15px;
+    }
+
+    .fifth{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
